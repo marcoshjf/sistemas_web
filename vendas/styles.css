@@ -1,0 +1,27 @@
+@import url("styles/header.css");
+@import url("styles/section.css");
+@import url("styles/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo-rodape: #6600DB;
+    --branco: #FFFFFF;
+    --cor-letras: #6600DB;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: Karantina; 
+    --fonte-outras: Inter;
+}
+
+  
+body {
+    width: 100%;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+

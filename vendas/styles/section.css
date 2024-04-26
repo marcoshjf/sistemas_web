@@ -1,0 +1,79 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+
+.banner__titulo {
+    font-family: var(--fonte-outras);
+    color: var(--cor-letras);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+.valor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 2em;
+    margin-right: 1em;
+    background-color: var(--branco);
+    padding: 1.5em;
+    border-radius: 1.5em;
+    border: 1px solid gray;
+    box-shadow: 5px 5px grey;
+}
+
+.banner__valor{
+    font-family: var(--fonte-outras);
+    color: var(--cor-letras);
+    font-weight: 700;
+    margin-right: 9em;
+}
+
+.banner__valores{
+    padding: 1.5em;
+    border: 1px ;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-right: 8em;
+}
+
+::placeholder{
+    padding: -0.1em;
+    color: var(--cor-letras);
+    font-weight: 500;
+    font-family: var(--fonte-outras);
+    font-size: 3em;
+    outline: none;
+}
+
+.search {
+    
+    font-size: 3em;
+}
+
+.servico, .produto, .geladeira{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 2em;
+    margin-right: 1em;
+    background-color: var(--branco);
+    padding: 1.5em;
+    border-radius: 1em;
+    border: 1px solid gray;
+    box-shadow: 2px 2px grey;
+}
+
+.carrossel_serv, .carrossel_prod, .carrossel_gela{
+    font-family: var(--fonte-outras);
+    color: var(--cor-letras);
+    font-weight: 700;
+    margin-right: 15em;
+}

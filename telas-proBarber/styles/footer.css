@@ -1,0 +1,23 @@
+.rodape {
+    margin-top: 53em;
+    width: 29em;
+    background-color: var(--cor-de-fundo-rodape);
+}
+
+.container__rodape{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__img-rodape{
+    width: 5em;
+    height: 3em;
+    padding: 1em;
+}
+
+.container__func{
+    margin-top: -0.2em;
+    margin-left: 1em;
+    border-radius: 1em;
+    background-color: var(--branco);
+}

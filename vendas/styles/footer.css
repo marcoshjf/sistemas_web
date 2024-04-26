@@ -1,0 +1,26 @@
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    margin: 7em 2em 0em 3em;
+    align-items: center;
+}
+
+.cancelar{
+    background-color: var(--branco);
+    color: var(--cor-letras);
+    border: 1px solid var(--cor-letras);
+    border-radius: 1em;
+    padding: 2em;
+    width: 12em;
+    box-shadow: 1.5px 1.5px grey;
+}
+
+.confirma{
+    background-color: var(--cor-letras);
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    padding: 2em;
+    border-radius: 1em;
+    width: 12em;
+    box-shadow: 1.5px 1.5px grey;
+}

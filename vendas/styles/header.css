@@ -1,0 +1,53 @@
+.cabeçalho__menu-hamburguer {
+    width: 25px;
+    height: 24px;
+    background-image: url("../componentes/img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabeçalho {
+    margin: auto;
+    background-color: var(--branco);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    width: 29em;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    
+
+}
+.logo{
+    color: var(--cor-letras);
+    font-weight: 500;
+    font-size: 2em;
+    font-family: var(--fonte-principal);
+    margin-right: 6em;
+    margin-left: 1em;
+}
+
+.container_imagem{
+    padding: 2em;
+}
+.container__imagem-tesoura {
+    width: 2.5em;
+    height: 2em;
+    padding: 1em;
+    border-radius: 1.5em;
+    /* box-shadow: 1.5px 1.5px grey; */
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.container__botao {
+    display: none;
+}
